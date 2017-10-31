@@ -32,12 +32,12 @@ function checkForChange() {
     
     if(cell.getValue() == ''){
       cell.setValue(text);
-      MailApp.sendEmail('biswasb007@gmail.com', 'ktu alert', 'New change for '+find+'\n'+text)
+      MailApp.sendEmail('faseehmuthu@gmail.com', 'ktu alert', 'New change for '+find+'\n'+text)
     }
     
     else if(cell.getValue() != text){
       cell.setValue(text);
-      MailApp.sendEmail('biswasb007@gmail.com', 'ktu alert', 'New change for '+find+'\n'+text)
+      MailApp.sendEmail('faseehmuthu@gmail.com', 'ktu alert', 'New change for '+find+'\n'+text)
     }
   }
   
